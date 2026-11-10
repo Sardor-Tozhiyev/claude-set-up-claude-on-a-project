@@ -19,9 +19,9 @@
 ## Verification
 
 - [x] `/memory` picks up `./CLAUDE.md` as the project memory file
-- [ ] `/permissions` shows the allow / ask / deny rules above
-- [ ] Asked "How do I run the tests here?" and Claude answered from `CLAUDE.md`
+- [x] `/permissions` shows the allow / ask / deny rules above
+- [x] Asked "How do I run the tests here?" and Claude answered from `CLAUDE.md`
 
 ## Side note
 
-The repo's `.gitignore` has leading spaces on every line after the first. Git treats those spaces as part of the pattern, so `.env` and `.claude/settings.local.json` are **not** actually ignored. I checked this with `git check-ignore`.
+The repo's `.gitignore` has leading spaces on every line after the first. Git treats those spaces as part of the pattern, so `.env` and `.claude/settings.local.json` were **not** actually ignored. I checked this with `git check-ignore`, then removed the leading spaces. Both paths are now ignored.
