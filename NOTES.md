@@ -18,7 +18,7 @@
 
 ## Verification
 
-- [ ] `/memory` in a fresh session lists `./CLAUDE.md` as loaded
+- [x] `/memory` picks up `./CLAUDE.md` as the project memory file
 - [ ] `/permissions` shows the allow / ask / deny rules above
 - [ ] Asked "How do I run the tests here?" and Claude answered from `CLAUDE.md`
 
